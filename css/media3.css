@@ -1,0 +1,154 @@
+.rnav button {
+display: none;
+}
+
+@media only screen and (max-width : 959px) {
+	
+	.rnav button {
+	display: block;
+    position: absolute;
+	right: 0px;
+    top: 35px;
+	right:30px;
+    background: url(../img/meni.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    z-index: 201;
+  }
+
+	
+	.rnav button.on + ul {
+    display: block;
+    background: #FAFF89;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top:-2px;
+	margin-bottom:0;
+	padding:0 20px;
+	z-index:101;
+	}
+  
+  .rnav button.on + ul li {
+    float: none;
+    margin: 0;
+    color: #613532;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display:block;
+	padding-left:40px;
+	width:100%;
+	border-bottom:1px solid rgb(244, 174, 72);
+	padding-top:10px;
+	padding-bottom:10px;
+  }
+
+  .rnav button.on + ul li a:hover {
+    text-decoration:underline;
+  }
+  
+  .rnav button.on + ul li:hover {
+	background-color:#AAD048;
+  }
+
+  .rnav button.on + ul li ul {
+    display: block;
+    position: static;
+    margin: 10px 0 0 0;
+  }
+
+  .rnav button.on + ul li a {
+    color: #613532;
+    white-space: nowrap;
+	font-weight:500;
+	text-transform:uppercase;
+	display:block;
+  }
+
+	header .rnav ul {
+	display:none;
+	}
+	
+	header.glavni-nav, nav#main-nav {
+	position:static !important;
+	width:100%;
+  }
+  
+  #container .zanimljivosti-opis {
+  padding-top:0;
+  }
+  
+  #main-nav ul {
+  margin-bottom:20px;
+  }
+  
+  /* Scroll to top */   
+  #pageup {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/up.png);
+	background-repeat: no-repeat;
+	background-size: 48px 48px;
+	display: none;
+	cursor: pointer;
+	opacity: 0.5;
+	}
+}
+
+@media only screen and (max-width : 880px) {
+	#map #kontakt{
+	 position:static;
+	 width:100%;
+	}
+	
+	.adresa p {
+	 margin-bottom:0;
+	}
+	
+	.zanimljivosti-opis p.uopsteno {
+	 width: 90%;
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	#container .ym-form {
+	 width: 100%;
+	}
+	
+	h1.zanimljivosti {
+	font-size:2.7em;
+	}
+}
+
+ @media only screen and (max-width : 430px) and (min-width : 324px) {
+
+	section.social-media .ym-wrapper {
+	max-width: 19em;
+	}
+}
+
+@media only screen and (max-width : 480px) and (min-width:320px) {
+   
+   header.glavni-nav h1.logo img{
+   margin-left:0.625em;
+   }
+   
+   #main-nav .rnav button {
+    right:0.625em;
+   }
+   
+   section.social-media ul#services li:nth-child(2){
+	  margin-bottom:1.250em;
+	}
+
+   h1.zanimljivosti {
+	font-size:2.3em;
+	}
+}
+

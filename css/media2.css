@@ -1,0 +1,295 @@
+.rnav button {
+display: none;
+}
+
+@media only screen and (min-width : 1335px) and (max-width : 1920px), (min-width : 1921px) {
+
+    #upotreba p.uopsteno {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width : 959px) and (max-width : 1024px){
+	.ym-grid.tabela .ym-g20.ym-gl {
+	width: 30%;
+   }
+   
+   .ym-grid.tabela .ym-g20.ym-gl p {
+	padding-right:10px;
+   }
+   
+   .ym-grid.tabela  .ym-gbox {
+	margin-left:3.438em;
+   }
+   
+   .ym-g25.ym-gl.thumbnail {
+	width:50%;
+   }
+   
+    #container .reciklaza-bitno p.uopsteno {
+    width: 90%;
+   }
+   
+   .reciklaza-bitno .ym-grid.tabela {
+    padding:10px 0;
+   }
+}
+
+@media only screen and (max-width : 959px) {
+	
+	.rnav button {
+	display: block;
+    position: absolute;
+	right: 0px;
+    top: 35px;
+	right:30px;
+    background: url(../img/meni.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    z-index: 201;
+  }
+
+	
+	.rnav button.on + ul {
+    display: block;
+    background: #FAFF89;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top:-2px;
+	margin-bottom:0;
+	padding:0 20px;
+	z-index:101;
+	}
+  
+  .rnav button.on + ul li {
+    float: none;
+    margin: 0;
+    color: #613532;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display:block;
+	padding-left:40px;
+	width:100%;
+	border-bottom:1px solid rgb(244, 174, 72);
+	padding-top:10px;
+	padding-bottom:10px;
+  }
+
+  .rnav button.on + ul li a:hover {
+    text-decoration:underline;
+  }
+  
+  .rnav button.on + ul li:hover {
+	background-color:#AAD048;
+  }
+
+  .rnav button.on + ul li ul {
+    display: block;
+    position: static;
+    margin: 10px 0 0 0;
+  }
+
+  .rnav button.on + ul li a {
+    color: #613532;
+    white-space: nowrap;
+	font-weight:500;
+	text-transform:uppercase;
+	display:block;
+  }
+
+	header .rnav ul {
+	display:none;
+	}
+	
+	header.glavni-nav, nav#main-nav {
+	position:static !important;
+	width:100%;
+  }
+  
+  #upotreba .ym-grid.baner {
+	margin-top:0;
+  }
+  
+  #upotreba .ym-gbox.baner {
+	margin-top:0;
+  }
+  
+  .ym-grid.tabela .ym-g20.ym-gl {
+	width: 30%;
+   }
+   
+   .ym-grid.tabela .ym-g20.ym-gl p {
+	padding-right:10px;
+   }
+   
+   .ym-grid.tabela  .ym-gbox {
+	margin-left:3.438em;
+   }
+   
+   h1.span-left {
+   font-size:2.7em;
+   }
+   
+   #container .reciklaza-bitno p.uopsteno {
+    width: 90%;
+ }
+ 
+  .reciklaza-bitno .ym-grid.tabela {
+    padding:10px 0;
+   }
+   
+   .ym-g25.ym-gl.thumbnail {
+	width:50%;
+   }
+   
+  /* Scroll to top */   
+  #pageup {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/up.png);
+	background-repeat: no-repeat;
+	background-size: 48px 48px;
+	display: none;
+	cursor: pointer;
+	opacity: 0.5;
+	} 
+ }
+ 
+ @media only screen and (min-width : 768px) and (max-width : 900px) {
+	
+	.reciklaza-bitno .ym-grid.tabela .ym-gbox {
+	 margin-left:1.250em;
+	}
+	
+	.ym-grid.tabela .ym-g20.ym-gl {
+    width: 50%;
+	}
+	
+	.ym-grid.tabela h2 {
+	text-align:left;
+	font-size:2.3em;
+	}
+	
+	.ym-g25.ym-gl.thumbnail {
+	width:50%;
+   }
+}
+
+@media only screen and (max-width : 640px), (max-width : 767px) {
+	
+	.reciklaza-bitno .ym-grid.tabela .ym-gbox {
+	 margin-left:1.250em;
+	}
+	
+	.ym-grid.tabela .ym-g20.ym-gl {
+    width: 50%;
+	}
+	
+	.ym-grid.tabela h2 {
+	text-align:left;
+	font-size:2em;
+	}
+	
+	 h1.span-left {
+    font-size: 2.3em;
+   }
+
+}
+
+@media only screen and (max-width : 600px) {
+	
+    .ym-grid.tabela .ym-g20.ym-gl {
+    width: 100%;
+	}
+	
+	.ym-grid.tabela  .ym-gbox {
+	margin-left:1.250em;
+   }
+   
+   .ym-g25.ym-gl.thumbnail {
+	width:50%;
+	}
+
+ }
+ 
+ @media only screen and (max-width : 599px) {
+    
+    #celina #main-nav ul {
+    margin-bottom:20px;
+	}
+    
+    .ym-grid.baner .ym-gbox.baner {
+     display:none;
+    }
+    
+     #container .reciklaza-bitno  h1.span-left {
+     margin:20px 0;
+   }
+    
+ }
+ 
+ @media only screen and (max-width : 430px) {
+	
+	
+	section.social-media .ym-wrapper {
+	max-width: 19em;
+	}
+	
+	section.social-media ul#services li:nth-child(2) {
+	margin-bottom:1.250em;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	
+    .ym-g25.ym-gl.thumbnail {
+	width:100%;
+	}
+	
+	 h1.span-left {
+    font-size: 2em;
+   }
+   
+   .ym-grid.tabela h2 {
+	text-align:left;
+	font-size:1.8em;
+	}
+	
+	#container .reciklaza-bitno p.uopsteno {
+	 font-size:0.875em;
+	}
+}
+
+@media only screen and (max-width : 480px) and (min-width:320px) {
+ 
+ #container .reciklaza-bitno p.uopsteno {
+    width: 90%;
+  }
+    
+  #main-nav ul {
+  margin-bottom:20px;
+  }
+  
+  .ym-grid.tabela h2 {
+    font-size:1.5em;
+	margin-bottom:0;
+   }
+   
+   header.glavni-nav h1.logo img{
+    margin-left:0.625em;
+   }
+   
+   #main-nav .rnav button {
+    right:0.625em;
+   }
+ }
+ 
+ 
+   

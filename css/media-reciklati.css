@@ -1,0 +1,450 @@
+.rnav button {
+  display: none;
+}
+
+.menu-on #container{
+  padding-top: 280px;
+}
+
+@media only screen and (max-width : 1220px) and (min-width : 960px) {
+	
+	.zanimljivosti-opis .ym-grid.reciklati p {
+	 font-size:0.875em;
+	}
+	
+	#container .zanimljivosti-opis ul li {
+	 font-size:0.875em;
+	}
+	
+	.zanimljivosti-opis .ym-gbox-left.simbol {
+	 margin-right: 3.125em;
+	}
+}
+
+@media only screen and (max-width : 1024px) and (min-width : 960px) {
+	   
+	.reciklati-opis p {
+	 font-size:0.875em;
+	}
+    
+    #reciklati .ym-g25.ym-gl.thumbnail {
+	width:33%;
+   }
+   
+   #saveti .ym-g25.ym-gl.thumbnail {
+	width:50%;
+   }
+}
+
+@media only screen and (max-width : 959px) {
+	
+	.rnav button {
+	display: block;
+    position: absolute;
+	right: 0px;
+    top: 35px;
+	right:30px;
+    background: url(../img/meni.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    z-index: 201;
+  }
+
+	
+	.rnav button.on + ul {
+    display: block;
+    background: #FAFF89;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top:-2px;
+	margin-bottom:0;
+	padding:0 20px;
+	z-index:101;
+	}
+  
+  .rnav button.on + ul li {
+    float: none;
+    margin: 0;
+    color: #613532;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display:block;
+	padding-left:40px;
+	width:100%;
+	border-bottom:1px solid rgb(244, 174, 72);
+	padding-top:10px;
+	padding-bottom:10px;
+  }
+
+  .rnav button.on + ul li a:hover {
+    text-decoration:underline;
+  }
+  
+  .rnav button.on + ul li:hover {
+	background-color: #AAD048;
+  }
+
+  .rnav button.on + ul li ul {
+    display: block;
+    position: static;
+    margin: 10px 0 0 0;
+  }
+
+  .rnav button.on + ul li a {
+    color: #613532;
+    white-space: nowrap;
+	font-weight:500;
+	text-transform:uppercase;
+	display:block;
+  }
+
+	header .rnav ul {
+	display:none;
+	}
+	
+	header.glavni-nav, nav#main-nav {
+	position:static !important;
+	width:100%;
+  }
+  
+  #main-nav ul {
+  margin-bottom:20px;
+  }
+  
+  #container .reciklati-opis {
+    padding-top: 20px;
+  }
+  
+  .ym-grid.reciklati .ym-g33.ym-gl.simbol {
+	width: 50%;
+  }
+  
+  .ym-g38.ym-gl.simbol {
+    width: 50%;
+  }
+  
+  .ym-grid.reciklati .ym-g25.ym-gr {
+    width: 50%;
+  }
+  
+  .ym-grid.galerija .ym-g25.ym-gl.thumbnail {
+    width: 33%;
+  }
+  
+  #container .upotreba-saveti {
+	padding-top: 0.625em;
+  }
+  
+  .ym-grid.galerija-upotreba .ym-g25.ym-gl.thumbnail {
+	width: 50%;
+  }
+  
+  .upotreba-saveti .ym-g50.ym-gl .ym-gbox-left {
+	
+    padding-right: 1.875em;
+  }
+  
+  #container .zanimljivosti-opis {
+	padding-top:1.250em;
+  }
+  
+   #zanimljivosti .ym-grid.podela h2{
+   margin-bottom:40px;
+  }
+	
+   #zanimljivosti .ym-grid.podela {
+   padding-bottom:0;
+  }
+  
+  .zanimljivosti-opis .ym-gbox-left.simbol {
+	 margin-right: 3.125em;
+
+  }
+  
+/* Scroll to top */   
+  #pageup {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/up.png);
+	background-repeat: no-repeat;
+	background-size: 48px 48px;
+	display: none;
+	cursor: pointer;
+	opacity: 0.5;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 767px) {
+
+	.ym-g38.ym-gl.simbol .ym-gbox-left.opis {
+	  margin-right: 0;
+	}
+	
+	#reciklati .ym-grid.galerija .ym-g25.ym-gl.thumbnail {
+    width: 50%;
+  }
+  
+  .view.view-first .mask {
+    height:auto;
+  }
+  
+  .ym-grid.reciklati .ym-g33.ym-gl.simbol {
+      width: 100%;
+	}
+	
+	.ym-g33.ym-gl.simbol .ym-gbox-left.simbol {
+	  margin-right:0;
+	  border-bottom: 1px solid #A3DC40;
+	}
+	
+	.ym-g38.ym-gl.simbol .ym-gbox-left.opis {
+	  padding-right:20px;
+	}
+	
+	.zanimljivosti-opis .ym-grid.reciklati p {
+	 font-size:0.875em;
+	}
+	
+	#container .zanimljivosti-opis ul li {
+	 font-size:0.875em;
+	}
+	
+	#zanimljivosti .zanimljivosti-opis {
+	  padding-top:0;
+	}
+	
+	h2.simbol {
+	 margin-bottom:20px;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 900px) {
+
+    .ym-grid.galerija .ym-g25.ym-gl.thumbnail {
+	 width:30%;
+	}
+
+}
+
+@media only screen and (max-width : 650px) {
+
+	.ym-grid.reciklati .ym-g33.ym-gl.simbol {
+      width: 100%;
+	}
+	
+	.ym-g33.ym-gl.simbol .ym-gbox-left.simbol {
+	  margin-right:0;
+	  border-bottom: 1px solid #A3DC40;
+	}
+	
+	.ym-g38.ym-gl.simbol .ym-gbox-left.opis {
+	  padding-right:20px;
+	}
+	
+	.reciklati-opis p {
+	 font-size:0.875em;
+	}
+	
+	
+	#zanimljivosti .ym-grid.reciklati .ym-g38.ym-gl.simbol {
+	  width: 100%;
+	}
+	
+	#zanimljivosti .ym-grid.reciklati .ym-g25.ym-gr {
+	  width:100%;
+	}
+	
+	#zanimljivosti .ym-g25.ym-gr {
+	  float:left;
+	}
+	
+	#zanimljivosti h3.zanimljivosti {
+	  margin-top:10px;
+	}
+	
+	.zanimljivosti-opis .ym-grid.reciklati p {
+	 font-size:1em;
+	}
+	
+	#container .zanimljivosti-opis ul li {
+	 font-size:1em;
+	}
+}
+	
+
+@media only screen and (max-width : 600px) {
+	
+	.ym-grid.reciklati .ym-g38.ym-gl.simbol {
+	  width: 100%;
+	}
+	
+	.ym-grid.reciklati .ym-g25.ym-gr  {
+	  width:100%;
+	}
+	
+	.ym-g25.ym-gr .ym-gbox-right.zanimljivosti {
+	  float:left;
+	}
+	
+	h3.zanimljivosti {
+	  margin-top:10px;
+	}
+	
+	.reciklati-opis p {
+	 font-size:1em;
+	}
+    
+    #reciklati .ym-grid.galerija .ym-g25.ym-gl.thumbnail {
+	  width:100%;
+	}
+    
+    #reciklati .ym-grid.galerija .view.view-first {
+    width: 100%;
+	height: auto;
+   }
+   
+   #reciklati .view.view-first img {
+    margin-top:0.938em;
+   }
+   
+   #reciklati .ym-grid.galerija .view.view-first:hover img {
+    transform: scale(1.2); 
+    }
+   
+   #reciklati .view.view-first .mask {
+    width: 100%;
+	height: auto;
+   }
+   
+   #reciklati .view.view-first .mask h2 {
+    display:none;
+   }
+
+}
+
+@media only screen and (max-width : 430px) and (min-width : 324px) {
+  
+    section.social-media .ym-wrapper {
+	max-width: 19em;
+	}
+}
+
+@media only screen and (max-width : 480px) and (min-width:320px) {
+   
+   section.social-media ul#services li:nth-child(2){
+	margin-bottom:1.250em;
+    }
+   
+   header.glavni-nav h1.logo img{
+   margin-left:0.625em;
+   }
+   
+   #main-nav .rnav button {
+    right:0.625em;
+   }
+    
+   .ym-g38.ym-gl.simbol .ym-gbox-left.opis {
+     padding:0 10px;
+   }
+}
+
+
+/* Ponovna upotreba - prodaja */
+
+
+@media only screen and (max-width : 1079px) {
+	.upotreba-saveti .ym-g38.ym-gl {
+	width: 50%;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.upotreba-saveti p {
+		font-size: 0.875em;
+	}
+	
+	#container .upotreba-saveti ul li {
+		font-size: 0.875em;
+	}
+}
+
+@media only screen and (max-width : 700px) {
+	.upotreba-saveti .ym-g50.ym-gl {
+		width: 100%;
+	}
+	
+	.upotreba-saveti .ym-g50.ym-gl img {
+		margin-bottom:0.938em;
+	}
+	
+	.upotreba-saveti .ym-g38.ym-gl {
+		width:100%;
+	}
+	
+	.upotreba-saveti .ym-g38.ym-gl .ym-gbox-left {
+		padding:0 3.125em;
+	}
+	
+	.upotreba-saveti p {
+		font-size: 1em;
+	}
+	
+	#container .upotreba-saveti ul li {
+		font-size: 1em;
+	}
+	
+}
+
+@media only screen and (max-width : 540px) {
+	
+	.upotreba-saveti .ym-g38.ym-gl .ym-gbox-left {
+		padding:0 1.875em;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+
+	.zanimljivosti-opis .ym-grid.reciklati p {
+	 font-size:0.875em;
+	}
+	
+	#container .zanimljivosti-opis ul li {
+	 font-size:0.875em;
+	}
+	
+}
+
+@media only screen and (max-width : 450px) {
+	
+	.upotreba-saveti .ym-g38.ym-gl .ym-gbox-left {
+		padding:0 0.625em;
+	}
+}
+
+@media only screen and (max-width : 480px) and (min-width:320px) {
+	
+	#reciklati .ym-grid.galerija-upotreba .ym-g25.ym-gl.thumbnail {
+	  width: 100%;
+  }
+
+	#container .upotreba-saveti ul li {
+     font-size: 0.875em;
+  }
+  
+  #saveti .ym-grid.galerija-upotreba .ym-g25.ym-gl.thumbnail {
+	width: 100%;
+  }
+  
+  #saveti .ym-gbox-left {
+    padding-right:0;
+  }
+
+}

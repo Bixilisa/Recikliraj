@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+
+  <title> O kampanji </title>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <!-- mobile viewport optimisation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- stylesheets -->
+  
+  <link rel="stylesheet" media="screen" href="css/media3.css" type="text/css"/>
+  
+  <link rel="stylesheet" href="yaml/screen/typography.css" type="text/css"/>
+  <link rel="stylesheet" href="yaml/forms/gray-theme.css" type="text/css"/>
+  <link rel="stylesheet" href="yaml/core/base.css" type="text/css"/>
+  <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+  
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+ <!-- <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script> -->
+  
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" href="yaml/core/iehacks.min.css" type="text/css"/>
+  <![endif]-->
+</head>
+
+<body id="kampanja">
+
+<!-- skip link navigation --> 
+  <ul class="ym-skiplinks">
+    <li><a class="ym-skip" href="#container">Skip to main content (Press Enter)</a></li>
+	<li><a class="ym-skip" href="#forma">Skip to forma (Press Enter)</a></li>
+    <li><a class="ym-skip" href="#main-nav">Skip to navigation (Press Enter)</a></li>
+  </ul>
+  
+  <!-- Header/Main Navigation start -->
+  
+  <header class="glavni-nav ym-noprint"> 
+   <nav id="main-nav">
+	<div class="ym-wrapper">
+	 <div class="ym-hlist">
+	  <a class="logo-wrapper" href="index.html">
+		<h1 class="logo">
+		 <img src="img/novi-logo.png" alt="logo">
+		 </h1>
+		</a>
+		 <div class="rnav">
+		  <button>main-menu</button>
+			<ul>
+			  <li><a href="reciklaza.html">Reciklaža</a></li>
+			  <li><a href="ponovna-upotreba.html">Ponovna upotreba</a></li>
+			  <li><a href="redukcija.html">Redukcija</a></li>
+			  <li class="first-active"><a href="kampanja.html">O nama</a></li>
+			  <li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+			  </ul>
+		</div>
+	</div>
+  </div>
+ <div class="clear"> </div>
+</nav>
+</header>
+
+<!-- /Header/Main Navigation start -->
+
+
+<!--Opis-->
+
+<div id="container"> 
+
+ <section class="zanimljivosti-opis">
+  <div class="ym-wrapper">    
+    <div class="ym-wbox">
+  	
+	 <h1 class="zanimljivosti">O kampanji</h1>
+	  <hr>
+	   <p class="uopsteno">Kampanja <a href="index.html">Recikliraj</a> osnovana je u Srbiji kao neprofitna organizacija sa ciljem da se razvije ekološka svest o potrebi reciklaže i prihvati kao naučen i uobičajen model ponašanja. Sajt je edukativnog karaktera u nameri da se podigne svest o značaju zaštite životne sredine i ukaže na globalne i lokalne posledice zagađivanja planete.<br><br>Smanjenje otpada, pravilno odlaganje i reciklaža trebalo bi postati navika svakog pojedinca. Ličnim angažovanjem pomogli bi u sprečavanju ugrožavanja okoline i njenom očuvanju kako za sadašnje tako i za buduće generacije. Još nije kasno da spasite planetu. <span style="color:#F74D1E;">Reciklirajte za bolje sutra!</span></p>
+	    
+          </div>        
+        </div>      
+         
+  </section> 
+
+   
+  
+<!--Opis-->
+
+<!--Kontakt-->
+
+<section class="row" id="map">
+ <h1 class="zanimljivosti">Kontakt</h1>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.110340001532!2d20.490251915523398!3d44.758164379098965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a711dbe562e97%3A0x85e0787435ffe95d!2sGenerala%20%C5%A0tefanika%2C%20Beograd%2C%20Serbia!5e0!3m2!1sen!2sat!4v1621707880987!5m2!1sen!2sat" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+  <div id="kontakt">
+		<div class="mail">
+		 <p>Mail: office@recikliraj.rs<br>
+			Web: <a href="#">recikliraj.org.rs</a><br>
+			Telefon: +381 xx xxxx xxx<br>
+		 </p>
+		 </div>
+		  <div class="adresa">
+		   <p>Beograd<br><br>
+		   Recikliraj - kampanja o reciklaži<br>
+		   Generala Štefanika xx<br>
+		   11010 Beograd<br>
+		   Srbija
+		   </p>
+		  </div>
+		</div>
+
+</section>
+
+<!--Kontakt-->
+
+<!--Forma-->
+
+<h2 style="color:#613532;text-align:center;">Postavite pitanje</h2>
+<form class="ym-form linearize-form" id="forma">
+  <!-- form row wrapper -->
+  <div class="ym-fbox">
+    <label for="ime">Ime i prezime</label>
+     <input type="text" name="ime" id="ime" placeholder="Unesi vrednost" />
+	  <label for="e-mail">E-mail</label>
+        <input type="text" name="e-mail" id="e-mail" placeholder="Unesi vrednost" />
+		 <label for="poruka">Poruka</label>
+		  <textarea name="poruka" id="poruka" rows="10"></textarea>
+   </div>
+ </form>
+	<div class="ym-fbox-footer">
+	 <input type="submit" class="ym-button ym-warning ym-large" value="Potvrdi" id="submit"/>
+	  </div>
+
+<!--Forma-->
+</div>
+
+<!-- Social Media dugmici -->
+
+<section class="social-media">
+   <div class="ym-wrapper">    
+    <div class="ym-wbox">    
+	 <ul id="services">
+	  <li>
+		<div data-link="http://www.facebook.com/" class="entypo-facebook"></div>
+	  </li>
+		  
+	<li>
+      <div data-link="http://www.twitter.com/" class="entypo-twitter"></div>
+    </li>
+	
+	<li>
+      <div data-link="http://plus.google.com/" class="entypo-gplus"></div>
+    </li>
+	
+	<li>
+      <div data-link="http://www.linkedin.com/" class="entypo-linkedin"></div>
+    </li>
+	  </ul>
+
+ <div id="pageup"></div>
+  </div>
+   </div>	  
+</section>
+		
+<!-- /Social Media dugmici -->
+
+<!-- Footer -->
+
+<footer>
+	<p>© 2014 Recikliraj · Sva prava zadržana.</p>
+</footer>
+
+<!-- Footer -->
+
+  <!-- Yaml core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/novi.js"></script>
+	<script src="yaml/core/js/yaml-focusfix.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	$("#pageup").pageup();
+	</script>
+	
+</body>
+</html>

@@ -812,6 +812,7 @@ a.pu:hover {
 	background-color:#F74D1E;
 	border:none;
 	-webkit-box-shadow:none;
+	box-shadow:none;
 }
 
 .ym-button.ym-warning:hover {
@@ -819,6 +820,7 @@ a.pu:hover {
 	background-image:none;
 	background-color:#FB1E1E;
 	-webkit-box-shadow:none;
+	box-shadow:none;
 	
 }
 

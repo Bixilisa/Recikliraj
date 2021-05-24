@@ -392,6 +392,15 @@ footer  p {
 	margin-bottom:0;
 }
 
+footer p a {
+	color:#96C23C;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+	color:#96C23C;
+}
+
 .btn-primary {
 	color:white !important;
 }

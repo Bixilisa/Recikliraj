@@ -371,6 +371,14 @@ section #services li div:hover {
 section #services li span {
 	color:#613532;
 }
+
+section #services li a {
+	color: #F4AE48;
+}
+
+section #services li a:hover {
+	color: #F4AE48;
+}
 /* Social-media ikonice - kraj */
 
 footer {
